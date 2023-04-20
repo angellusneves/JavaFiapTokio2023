@@ -1,4 +1,4 @@
-package revisao;
+package Aula05;
 
 import java.util.Scanner;
 
@@ -17,6 +17,8 @@ public class Ex05 {
 		System.out.println(((A*4)+(B*6))/2);
 		
 		entrada.close();
+		
+		//Correta
 
 	}
 

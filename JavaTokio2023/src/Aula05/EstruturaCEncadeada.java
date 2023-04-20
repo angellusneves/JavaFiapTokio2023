@@ -1,6 +1,6 @@
-package revisao;
+package Aula05;
 
-public class introducao {
+public class EstruturaCEncadeada {
 
 	public static void main(String[] args) {
 

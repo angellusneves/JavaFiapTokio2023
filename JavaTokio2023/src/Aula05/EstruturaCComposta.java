@@ -1,6 +1,6 @@
-package revisao;
+package Aula05;
 
-public class EstruturaComposta {
+public class EstruturaCComposta {
 
 	public static void main(String[] args) {
 		//Estruta Condicional Composta

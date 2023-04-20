@@ -1,4 +1,4 @@
-package revisao;
+package Aula05;
 
 public class Ex02 {
 
@@ -26,7 +26,7 @@ public class Ex02 {
 		System.out.println(num21);
 		System.out.println(num31);
 		
-		
+		//Correta
 				
 	}
 

@@ -1,6 +1,6 @@
-package revisao;
+package Aula05;
 
-public class EstruturaCondicionalSimples {
+public class EstruturaCSimples {
 
 	public static void main(String[] args) {
 		// Estrutura Condicional Simples

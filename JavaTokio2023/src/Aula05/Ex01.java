@@ -1,4 +1,4 @@
-package revisao;
+package Aula05;
 
 public class Ex01 {
 
@@ -13,7 +13,7 @@ public class Ex01 {
 		System.out.println("Seu CEP é: " + cep);
 		System.out.println("Seu telefone é: " + telefone);
 		
-		
+		//Correta
 
 	}
 

@@ -1,4 +1,4 @@
-package revisao;
+package Aula05;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class Ex04 {
 		
 		entrada.close();
 		
-		
+		//Correta
 
 	}
 
