@@ -6,27 +6,29 @@ public class Ex10 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Ola, queremos saber quantos dias você viveu ate o momento");
 		
-		Scanner entradaAnos = new Scanner(System.in);
+        final short DIAS_NO_ANO = 365;
+		final short DIAS_NO_MES = 30;
+		short dias;
+		short meses;
+		short anos;
+		Scanner leitor = new Scanner(System.in);
 		
-		System.out.print("Digite a sua idade: ");
-		double Idade = entradaAnos.nextDouble();
+		System.out.println("Informe a sua idade.");
+		System.out.print("Anos: ");
+		anos = leitor.nextShort();
 		
-		System.out.print("Digite o mes do seu aniversario: ");
-		double Meses = entradaAnos.nextDouble();
+		System.out.print("Meses: ");
+		meses = leitor.nextShort();
 		
-		System.out.print("Digite o dia do seu aniversario: ");
-		double Dias = entradaAnos.nextDouble();
+		System.out.print("Dias: ");
+		dias = leitor.nextShort();
 		
-		Idade = 365;
-		Meses = 30;
-		Dias = 1;
+		dias += (anos * DIAS_NO_ANO) + (meses * DIAS_NO_MES);
 		
-		System.out.println(Idade + Meses + Dias);
+		System.out.println("\n\nA sua idade em dias e: " + dias);
 		
-		//Errada
-		 
+		//correta
 	}
 
 }
